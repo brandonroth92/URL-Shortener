@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>URL Shortener Microserver</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>API Project: URL Shortener Microservice</h1>
+        <p>By Brandon Roth | <a href="https://github.com/brandonroth92/URL-Shortener">Project GitHub</a></p>
+      </div> <!-- page-header -->
+    
+      <div>
+        <h2>What is this?</h2>
+        <p>
+          This is an API project for freeCodeCamp's Back End Development Certification that accepts a valid URL as a parameter and returns a shortened URL in the JSON response. Visiting the shortened URL redirects to the original URL passed as a parameter.
+        </p>
+        
+        <h4>Creation Usage:</h4>
+        <code>https://brandonr-shorturl.herokuapp.com/new/https://www.google.com</code>
+        
+        <h4>Creation Output:</h4>
+        <code>{"original_url":"https://www.google.com","short_url":"https://brandonr-shorturl.herokuapp.com/4188"}</code>
+        
+        <h4>Redirection Usage:</h4>
+        <code>https://brandonr-shorturl.herokuapp.com/4188</code>
+        
+        <h4>Redirects to:</h4>
+        <code>www.google.com</code>
+        
+      </div>
+    
+    </div> <!-- container -->  
+  </body>
+
+</html>

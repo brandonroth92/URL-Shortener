@@ -1,0 +1,20 @@
+{
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "description": "Free Code Camp Back End Development Certification API Project",
+  "engines": {
+    "node": "6.9.5",
+    "npm": "3.10.10"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Brandon Roth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  }
+}
