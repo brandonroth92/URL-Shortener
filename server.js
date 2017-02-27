@@ -1,10 +1,12 @@
 const express = require('express');
 const database = require('./database.js');
 const path = require('path');
+const favicon = require('serve-favicon');
 const app = express();
 
 //Use port 1337 by default
 app.set('port', (process.env.PORT || 1337));
+app.use(favicon(path.join(__dirname, 'client', 'favicon.ico')))
 
 //Connect to database once and use connection for both get requests
 database.connect(function() {
